@@ -31,7 +31,7 @@
 											</span>
 										@endforeach
 										{{-- <span class="blue"><a href="#">Sci-fi</a></span>
-										<span class="yell"><a href="#">Action</a></span>
+										<span class="yell"><a href="#">Actionnnn</a></span>
 										<span class="orange"><a href="#">advanture</a></span> --}}
 									</div>
 									<h1><a href="/shows/{{ $show["id"] }}">{{ $show["title"] }}<span>{{ date("Y", strtotime($show["releaseDate"])); }}</span></a></h1>
@@ -46,7 +46,7 @@
 												<a href="#" class="hvr-grow"><i class="ion-social-googleplus"></i></a>
 												<a href="#" class="hvr-grow"><i class="ion-social-youtube"></i></a>
 											</div>
-										</div>		
+										</div>
 									</div>
 									<div class="mv-details">
 										<p><i class="ion-android-star"></i><span>{{ $show["userRating"] }}</span> /10</p>
@@ -64,7 +64,7 @@
 									<a href="shows/{{ $show["id"] }}"><img style="width: 300px;" src="{{ $base }}/posters/{{ $show["poster"] }}" alt=""></a>
 								</div>
 							</div>
-						</div>	
+						</div>
 					</div>
 				@endforeach
 
